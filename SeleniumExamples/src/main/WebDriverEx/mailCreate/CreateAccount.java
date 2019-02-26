@@ -96,11 +96,11 @@ public class CreateAccount {
 		driver.findElement(By.xpath(recover_Email_id_xpath)).sendKeys(recover_Email_id, Keys.ALT);
 		
 		/*WebElement fname= driver.findElement(By.id("firstName"));
-		fname.sendKeys("Kavitha");
+		fname.sendKeys("your firstname");
 		WebElement lname= driver.findElement(By.id("lastName"));
-		lname.sendKeys("m");
+		lname.sendKeys("your lastname");
 		WebElement uname= driver.findElement(By.id("username"));
-		uname.sendKeys("kavim");*/
+		uname.sendKeys("your username");*/
 	} //RveJvd snByac
 
 }
