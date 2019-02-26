@@ -38,9 +38,9 @@ public class PopupWindowEx {
              {    		
                   
                      // Switching to Child window
-                     driver.switchTo().window(ChildWindow);	                                                                                                           
+                   driver.switchTo().window(ChildWindow);	                                                                                                           
                      driver.findElement(By.name("emailid"))
-                     .sendKeys("abc123@gmail.com");                			
+                     .sendKeys("abc@gmail.com");                			
                      
                      driver.findElement(By.name("btnLogin")).click();			
                                   

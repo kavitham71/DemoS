@@ -9,7 +9,7 @@ public class Test {
 
 	public static void main(String[] args) {
 		// declaration & instantiation of objects/variables
-		System.setProperty("webdriver.gecko.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 		WebDriver driver = new FirefoxDriver();// -> Driver Object Instantiation
 
 		String baseUrl = "http://demo.guru99.com/test/newtours/";

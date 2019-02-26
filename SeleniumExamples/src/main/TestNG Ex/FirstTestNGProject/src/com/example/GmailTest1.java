@@ -18,7 +18,7 @@ public class NewTest1 {
 	    // Method 1: Open Brower say Firefox			
 	    @Test (priority=1)			
 	    public void openBrowser() {			
-	  	  System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
+	  	  System.setProperty("webdriver.chrome.driver", "/home/hostname/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
 	        driver = new ChromeDriver();				
 	    }		
 

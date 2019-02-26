@@ -21,7 +21,7 @@ public class Flipcart{
 	// This method is to navigate flipkart URL
 	@BeforeClass
 	public void init() {
-		System.setProperty("webdriver.chrome.driver", "/home/username/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/hostname/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
 		driver =  new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

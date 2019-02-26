@@ -31,15 +31,15 @@ public class TC_Class1 {
 	 */
 	/*@BeforeClass
 	public void BeforeTest() {
-		 System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/chromedriver");
-		 //System.setProperty("webdriver.gecko.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/firefoxdriver");
+		 System.setProperty("webdriver.chrome.driver", "/home/hostname/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/chromedriver");
+		 //System.setProperty("webdriver.gecko.driver", "/home/hostname/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/firefoxdriver");
 
 	}*/
 	
 	
 	@Test(groups = { "bonding", "strong_ties" })
 	public void tc01LaunchURL() {
-		 System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "/home/hostname/eclipse_projects2/selenium_ex/TestNgExample/lib/drivers/chromedriver");
 		 webDriver = new ChromeDriver();
 		webDriver.manage().window().maximize();
 		webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

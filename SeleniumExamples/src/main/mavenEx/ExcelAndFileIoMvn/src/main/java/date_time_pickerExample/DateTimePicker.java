@@ -15,7 +15,7 @@ public class DateTimePicker {
 
 	    public void dateTimePicker(){
 
-		 System.setProperty("webdriver.chrome.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
+		 System.setProperty("webdriver.chrome.driver", "/home/hostname/eclipse_projects2/selenium_ex/FirstTestNGProject/lib/drivers/chromedriver/chromedriver");
 			
 	        WebDriver driver = new ChromeDriver();
 

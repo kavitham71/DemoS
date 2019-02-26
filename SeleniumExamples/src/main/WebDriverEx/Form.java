@@ -44,7 +44,7 @@ public class Form {
         //using submit method to submit the form. Submit used on password field		
         driver.get(baseUrl);					
         driver.findElement(By.id("email")).sendKeys("abc@gmail.com");							
-        driver.findElement(By.name("passwd")).sendKeys("abcdefg");							
+        driver.findElement(By.name("passwd")).sendKeys("abc");							
         driver.findElement(By.id("SubmitLogin")).submit();					
         System.out.println("Login Done with Submit");					
          

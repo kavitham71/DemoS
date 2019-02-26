@@ -15,12 +15,10 @@ public class PropertyEX {
 	}
 	public static void read() {
 		try {
-			InputStream input = new FileInputStream("/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
+			InputStream input = new FileInputStream("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
 			prop.load(input);
 			String i = prop.getProperty("browser");
 			System.out.println(i);
-			/*String projectPath = prop.getProperty("user.dir");
-			System.out.println(projectPath);*/
 			FindElementTest.browser= prop.getProperty("browser");
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -29,7 +27,7 @@ public class PropertyEX {
 	}
 	public static void write() {
 		try {
-			OutputStream output = new FileOutputStream("/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
+			OutputStream output = new FileOutputStream("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
 				prop.setProperty("browser","firefox");
 				//prop.setProperty("result", "pass");
 				prop.store(output, null);

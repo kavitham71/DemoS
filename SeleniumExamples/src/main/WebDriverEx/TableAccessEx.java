@@ -18,14 +18,14 @@ public class TableAccessEx {
 		driver = new ChromeDriver();
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		 
-		 driver.get("file:///home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/tableaccess.html");
+		 driver.get("file:///home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/tableaccess.html");
          // By predicating 
 		 String innerText = driver.findElement(By.xpath("//table/tbody/tr[2]/td[2]")).getText(); 	
 			        System.out.println(innerText); 
 				//driver.close();
 		
 		// for Nested Table Access
-	     driver.get("file:///home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/tableAccess2.html");
+	     driver.get("file:///home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/tableAccess2.html");
 		 String innerText2 = driver.findElement(By.xpath("//table/tbody/tr[2]/td[2]/table/tbody/tr/td[2]")).getText(); 	
 	     System.out.println(innerText2); 
 			

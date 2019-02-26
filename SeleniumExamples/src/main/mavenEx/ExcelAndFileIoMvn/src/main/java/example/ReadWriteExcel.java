@@ -37,7 +37,7 @@ public class ReadWriteExcel {
 	}
 	
 	public void ReadData() throws Exception {
-		File src = new File("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/ExcelAndFileIoMvn/src/main/java/example/bookingFile.xls");
+		File src = new File("/home/hostname/eclipse_projects2/selenium_ex/ExcelAndFileIoMvn/src/main/java/example/bookingFile.xls");
 		
 		FileInputStream input = new FileInputStream(src);
 		wbook = new HSSFWorkbook(input);
@@ -60,7 +60,7 @@ public class ReadWriteExcel {
 		
 	}
 	public void writeDate() throws Exception{
-		File src = new File("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/ExcelAndFileIoMvn/src/main/java/example/bookingFile.xls");
+		File src = new File("/home/hostname/eclipse_projects2/selenium_ex/ExcelAndFileIoMvn/src/main/java/example/bookingFile.xls");
 		FileInputStream input = new FileInputStream(src);
 		wbook = new HSSFWorkbook(input);
 		sheet = wbook.getSheetAt(0);

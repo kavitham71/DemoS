@@ -37,7 +37,7 @@ public class EmiCalculator {
 	public static void read() {
 		InputStream input;
 		try {
-			input = new FileInputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/generalConfig.properties");
+			input = new FileInputStream("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/generalConfig.properties");
 			prop.load(input);
 			System.out.println(prop.getProperty("browser"));
 			browser = prop.getProperty("browser");

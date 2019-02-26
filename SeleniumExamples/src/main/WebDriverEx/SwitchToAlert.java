@@ -7,7 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class SwitchToAlert {
 	
 	    public static void main(String[] args) {
-			System.setProperty("webdriver.gecko.driver", "/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+			System.setProperty("webdriver.gecko.driver", "/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 	        WebDriver driver = new FirefoxDriver();
 	        String alertMessage = "";
 
@@ -24,7 +24,7 @@ public class SwitchToAlert {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	        driver.quit();
+	        driver.close();
 	       
 	    }
 	}

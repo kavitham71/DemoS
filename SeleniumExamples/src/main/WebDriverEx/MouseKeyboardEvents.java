@@ -32,17 +32,7 @@ public class MouseKeyboardEvents {
 		  System.out.println("After hover: " + bgColor); 
 		  driver.close();
 		 
-		/*String baseUrl2 = "http://www.facebook.com/"; 
-		driver.get(baseUrl2);
-		WebElement txtUsername = driver.findElement(By.id("email"));
-
-		Actions builder = new Actions(driver);
-		Action seriesOfActions = builder.moveToElement(txtUsername).click().keyDown(txtUsername, Keys.SHIFT)
-				.sendKeys(txtUsername, "hello").keyUp(txtUsername, Keys.SHIFT).doubleClick(txtUsername).contextClick()
-				.build();
-
-		seriesOfActions.perform();*/
-
+		
 	}
 
 }

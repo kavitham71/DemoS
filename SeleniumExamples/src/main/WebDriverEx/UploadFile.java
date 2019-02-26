@@ -18,7 +18,7 @@ public class UploadFile {
 		WebElement uploadElement = driver.findElement(By.id("uploadfile_0"));
 
 		// enter the file path onto the file-selection input field
-		uploadElement.sendKeys("/home/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/ex.html");
+		uploadElement.sendKeys("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/exampleFiles/ex.html");
 
 		// check the "I accept the terms of service" check box
 		driver.findElement(By.id("terms")).click();

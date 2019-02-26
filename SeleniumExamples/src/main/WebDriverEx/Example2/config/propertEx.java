@@ -19,7 +19,7 @@ public class PropertyEx {
 	public static void readProperties() {
 		
 		try {
-			InputStream input = new FileInputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/Example2/src/config/config.properties");
+			InputStream input = new FileInputStream("/home/hostname/eclipse_projects2/selenium_ex/Example2/src/config/config.properties");
 			prop.load(input);
 			System.out.println(prop.getProperty("browser"));
 			SeleniumModulesEx.browser= prop.getProperty("browser");
@@ -33,7 +33,7 @@ public class PropertyEx {
 	public static void writeProperties() {
 		
 		try {
-		OutputStream output = new FileOutputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/Example2/src/config/config.properties");
+		OutputStream output = new FileOutputStream("/home/hostname/eclipse_projects2/selenium_ex/Example2/src/config/config.properties");
 			prop.setProperty("browser","firefox");
 			//prop.setProperty("result", "pass");
 			prop.store(output, null);
