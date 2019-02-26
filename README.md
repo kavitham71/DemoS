@@ -86,15 +86,19 @@ All Examples
  
 
 ## Examples with:
-
+  
+  - Basic 
   - Mouse hover
+  - Drag & Drop
+  - Upload File
+  - Roght& Double Click
+  - Alert
+  - Dynamic Table
+  - Broken links
   - Drag & Drop
   - Draggable
   - Selectable
-  - Sortable
   - Actionable
-  - Radio Button
-  - Checkbox
-  - Datepicker
+  - multiple login and Others..
 
 
