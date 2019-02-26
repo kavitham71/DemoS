@@ -15,11 +15,11 @@ public class GmailLogin2 {
 	public static void main(String[] args)  {
 
 		System.setProperty("webdriver.gecko.driver",
-				"/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
+				"/home/username/eclipse_projects2/selenium_ex/GuruProjectEx/lib/Drivers/geckodriver/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 
 		driver.get("https://www.gmail.com");
-		driver.findElement(By.id("identifierId")).sendKeys("tweetatkavi7", Keys.ENTER);
+		driver.findElement(By.id("identifierId")).sendKeys("your mail-Id", Keys.ENTER);
 		
 		//driver.findElement(By.name("password")).sendKeys("PASSWORD",Keys.ENTER); --> Working
 		
