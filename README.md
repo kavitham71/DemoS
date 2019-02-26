@@ -1,8 +1,5 @@
 # Selenium Demo 
 
-
-# Examples
-All Examples 
 # *Selenium Webdriver:*
    This Repository Contains Selenium basic Introduction and WebDriver Code Examples .
 # **What is mean by Selenium ?** <br/>
