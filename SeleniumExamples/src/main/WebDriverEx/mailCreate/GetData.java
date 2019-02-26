@@ -20,7 +20,7 @@ public class GetData {
 	public static void read() {
 		InputStream input;
 		try {
-			input = new FileInputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
+			input = new FileInputStream("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
 			prop.load(input);
 			System.out.println(prop.getProperty("browser"));
 			CreateAccount.browser = prop.getProperty("browser");
@@ -49,7 +49,7 @@ public class GetData {
 	public static void write() {
 		OutputStream output;
 		try {
-			output = new FileOutputStream("/home/vedams/Kavitha/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
+			output = new FileOutputStream("/home/hostname/eclipse_projects2/selenium_ex/GuruProjectEx/lib/configFile/config.properties");
 			System.out.println(prop.setProperty("ready", "value"));
 			prop.store(output,null);
 		} catch (FileNotFoundException e) {
